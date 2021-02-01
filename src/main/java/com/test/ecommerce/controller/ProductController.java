@@ -25,4 +25,13 @@ public class ProductController {
         return "ecommerce Project is running ";
     }
 
+    @GetMapping("/fetchAllProducts")
+    public String getAllProducts() {
+        return "ecommerce Project is running ";
+    }
+    
+    @GetMapping("/fetchProductById")
+    public String getProductById(String id) {
+        return "ecommerce Project is running ";
+    }
 }

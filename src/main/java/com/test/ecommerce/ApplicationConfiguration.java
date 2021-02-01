@@ -14,7 +14,7 @@ import org.springframework.context.annotation.PropertySource;
  * @author johnson3yo
  */
 @Configuration
-@ComponentScan({"com.crowninteractive.net.nercreport"})
+@ComponentScan({"com.test.ecommerce"})
 @PropertySource(value = {"file:/var/config/ecommerce/application.properties"})
 public class ApplicationConfiguration {
     
